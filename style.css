@@ -1,0 +1,85 @@
+/* CSS Document */
+
+body {
+	background-image: url(bg.png);
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	text-align: center;
+	}
+	
+	#bb{ 
+border: 5px solid #5fb3bd;/*
+background-color: #ffffff;*/
+background: rgba(254,254,254
+,0.6);
+transition: transform 2s;
+}
+#bb:hover {
+    background: rgba(254,254,254
+,1.0);
+
+}
+.article img {
+display: block;
+float: left;
+margin: 0 50px 0 0;
+padding: 0;
+}
+.article h2{
+	color: #F05316;
+	text-align: center;
+}
+#footer{
+	width: 902px;
+    background: url(menu_bg.png) no-repeat top;
+    margin: 0 auto;
+	height:50px;
+	color: #ffffff;
+}
+#menu{
+    width: 902px;
+    background: url(menu_bg.png) no-repeat top;
+    margin: 0 auto;
+
+}
+
+#menu ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu ul li a{
+    font-family: Georgia,'Times New Roman',times,serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 19.9%;
+    height: 30px;
+    padding-top: 16px;
+
+}
+
+#menu ul li a:hover, #menu ul li .active{
+    font-weight: bold;
+}
+
+#banner{
+	display: table;
+ margin-right: auto;
+  margin-left: auto;
+	background-image:url(looks_banner_expert.jpg);
+	width: 1000px;
+	height: 327px;
+	
+	/* [disabled]background-origin: padding-box; */
+}
